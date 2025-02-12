@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100hv;
+    width: 100%;
+    font-family: roboto;
+}
+
+header{
+    padding: 15px;
+    border-bottom: 1px solid rgb(209, 200, 200);
+}
+
+.divLinha{
+    padding: 18px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+}
+
+h3{
+    font-weight: 350;
+}
+
+label{
+    font-size: 13px;
+    position: relative;
+    top: -10px;
+    font-weight: 500;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 15px;
+    height: 100vh;
+    width: 100%;
+    max-width: 500px;   
+}
+
+img{
+    width: 45px;
+    height: 45px;
+}
+
+.divInput{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding:  14px;
+    width: 260px;
+    border-radius: 8px;
+    border: none;
+    outline-color: #620DD9;
+    border:  1px solid rgb(201, 196, 196);
+    
+} 
+
+button{
+    padding: 11px;
+    width: 290px;
+    border-radius: 18px;
+    position: relative;
+    top: -17px;
+    border: none;
+    background: #F18000;
+    color: white;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: #620DD9;
+}
+.RedefinirPass{
+    font-size: 13px;
+    font-weight: 600;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position: relative;
+    top: -60px;
+}
+
+.RedefinirPass a{
+    color: #47278C;
+}
+
+.divfooter{
+    width:400px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.divfooter p{
+    color:  #525357;
+}
+.linhaFooter{
+    width: 100%;
+    border-bottom: 1px solid red;
+}
+
+.hrFooter{
+    width: 100%;
+    position: relative;
+    top: 25px;
+}
+
+.icon{
+    font-size: 15px;
+}
+
+ion-icon{
+    position: relative;
+    right: 5px;
+    color: #E3292A;
+}
+.divspan{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 5px;
+    font-size: 13px;
+    color: #E3292A;
+}
+.divspanErro{
+    display: flex;
+}
+
+.validatioEmail{
+    background: #FFF5F5;
+    border: 1px solid #E3292A;
+}
+
+.validationEmailTrue{
+    background: #FFF5F5;
+    border: 1px solid #E3292A;
+}
+
+
+/* estilizacao input Senha */
+
+.inputPAss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.inputPAss ion-icon {
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+    color: #47278C;
+}
+
+.divH1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divEmailSend{
+    font-size: 13px;
+    padding: 8px 25px 8px 25px;
+    text-align: center;
+    width: 158px;
+    position: relative;
+    top: 9px;
+    border-radius: 17px;
+    border: 1px solid rgb(201, 196, 196);
+    color: rgb(105, 104, 104);;
+}

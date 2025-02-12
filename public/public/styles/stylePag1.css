@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100hv;
+    width: 100%;
+    font-family: roboto;
+}
+
+header{
+    padding: 15px;
+    border-bottom: 1px solid rgb(209, 200, 200);
+}
+
+.divLinha{
+    padding: 18px;
+}
+.param{
+    color: #626366 ;
+}
+hr{
+    color:  #D0D4DD;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+}
+
+h3{
+    font-weight: 350;
+}
+
+label{
+    font-size: 13px;
+    position: relative;
+    top: -10px;
+    font-weight: 500;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 15px;
+    height: 100vh;
+    width: 100%;
+    max-width: 500px;
+    
+}
+
+.connectse{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* width: 100%; */
+    font-weight: 300;
+    font-size: 13px;
+}
+.divHr{
+    width: 70px;
+    font-weight: 300;
+    padding: 15px;
+    color: rgb(209, 200, 200);
+}
+
+.logosSocial{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+}
+
+img{
+    width: 45px;
+    height: 45px;
+}
+
+.logotam{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 1px solid rgb(209, 200, 200);
+}
+
+#imgGoogle{
+    width: 25px;
+}
+
+.divInput{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding:  14px;
+    width: 260px;
+    border-radius: 8px;
+    border: none;
+    outline-color: #620DD9;
+    border:  1px solid rgb(201, 196, 196);
+    
+} 
+
+button{
+    padding: 11px;
+    width: 290px;
+    border-radius: 18px;
+    position: relative;
+    top: -17px;
+    border: none;
+    background: #F18000;
+    color: white;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: #620DD9;
+}
+.notAccount{
+    font-size: 13px;
+    font-weight: 300;
+    color:  #525357;
+}
+.divfooter{
+    margin: 8px solid blue;
+    width:400px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+}
+
+.divfooter p{
+    color:  #525357;
+}
+.linhaFooter{
+    width: 100%;
+    border-bottom: 1px solid red;
+}
+
+.hrFooter{
+    width: 100%;
+    position: relative;
+    top: 25px;
+}
+
+.icon{
+    font-size: 15px;
+}
+
+ion-icon{
+    position: relative;
+    right: 5px;
+    color: #E3292A;
+}
+.divspan{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 5px;
+    font-size: 13px;
+    color: #E3292A;
+}
+.divspanErro{
+    display: flex;
+}
+
+.validatioEmail{
+    background: #FFF5F5;
+    border: 1px solid #E3292A;
+}
+
+.validationEmailTrue{
+    background: #FFF5F5;
+    border: 1px solid #E3292A;
+}

